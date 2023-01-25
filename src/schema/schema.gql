@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Cep {
+  bairro: String!
+  cep: String!
+  complemento: String!
+  ddd: String!
+  localidade: String!
+  logradouro: String!
+  uf: String!
+}
+
+type Query {
+  getCEP(cep: String!): Cep!
+}
